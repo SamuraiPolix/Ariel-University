@@ -1,0 +1,19 @@
+/**
+ * 8-way Xor: 
+ * out = (in[0] xor in[1] xor ... xor in[7])
+ */
+
+
+CHIP Xor8Way {
+	IN in[8];
+	out out;
+	
+	PARTS:
+	Xor(a=in[0], b=in[1], out=out1);
+	Xor(a=out1, b=in[2], out=out2);
+	Xor(a=out2, b=in[3], out=out3);
+	Xor(a=out3, b=in[4], out=out4);
+	Xor(a=out4, b=in[5], out=out5);
+	Xor(a=out5, b=in[6], out=out6);
+	Xor(a=out6, b=in[7], out=out);
+}

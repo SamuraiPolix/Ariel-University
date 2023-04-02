@@ -1,0 +1,13 @@
+/**
+ * 16-way Nor: 
+ * out = Not(in[0] or in[1] or ... or in[15])
+ */
+
+CHIP Nor16Way {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    Or16Way(in=in, out=out1);
+	Not(in=out1, out=out);
+}

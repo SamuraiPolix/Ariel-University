@@ -1,0 +1,15 @@
+/**
+ * 16-way Xor: 
+ * out = (in[0] xor in[1] xor ... xor in[15])
+ */
+
+
+CHIP Xor16Way {
+	IN in[16];
+	OUT out;
+	
+	PARTS:
+	Xor8Way(in=in[0..7], out=out1);
+	Xor8Way(in=in[8..15], out=out2);
+	Xor(a=out1, b=out2, out=out);
+}
