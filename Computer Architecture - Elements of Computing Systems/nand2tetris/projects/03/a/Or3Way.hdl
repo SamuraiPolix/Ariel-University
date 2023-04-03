@@ -1,0 +1,9 @@
+// Was built in project 2 as a helper
+CHIP Or3Way {
+	IN a, b, c;		// 3 inputs
+	OUT out;
+	
+	PARTS:
+	Or(a=a, b=b, out=out1);
+	Or(a=out1, b=c, out=out);
+}
