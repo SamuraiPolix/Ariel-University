@@ -5,7 +5,7 @@ Projects and assignments from my BSc in Computer Science at Ariel University, Is
 
 Started Oct 2022, Graduating 2025
 
-<h2>Relevant courses for github:</h2>
+<h2>Relevant courses:</h2>
 
 <h3>Year 1:</h3>
 
