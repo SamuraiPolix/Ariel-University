@@ -9,7 +9,7 @@ Started Oct 2022, Graduating 2025
 
 <h3>Year 1:</h3>
 
-- Intoduction to CS (Java)
+- Intoduction to Computer Science (C at MTA College, Java at Ariel University)
 - Data Structures
 - Computer Architecture - Elements of Computing Systems
 - Computer Networks and the Cyber World
