@@ -11,4 +11,49 @@
 // "white" in every pixel;
 // the screen should remain fully clear as long as no key is pressed.
 
-// Put your code here.
+// Put your code here:
+(LOOPKBD)
+@KBD
+D=M
+@WHITE
+D;JEQ
+@BLACK
+0;JMP
+
+(WHITE)
+@SCREEN
+D=A
+@address
+M=D
+(LOOPWHITE)
+@address
+A=M
+M=0
+@address
+M=M+1
+D=M
+@KBD
+D=A-D
+@LOOPWHITE
+D;JGT
+@LOOPKBD
+0;JMP
+
+(BLACK)
+@SCREEN
+D=A
+@address
+M=D
+(LOOPBLACK)
+@address
+A=M
+M=-1
+@address
+M=M+1
+D=M
+@KBD
+D=A-D
+@LOOPBLACK
+D;JGT
+@LOOPKBD
+0;JMP
