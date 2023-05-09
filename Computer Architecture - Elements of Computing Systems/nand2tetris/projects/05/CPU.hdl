@@ -40,4 +40,38 @@ CHIP CPU {
 
     PARTS:
     // Put your code here:
+    Not(in=instruction[15], out=commandBit); // A or C command sel
+    Mux16(a=ThisOutM, b=instruction, sel=commandBit, out=aRegisterInput); //for A register input sel will decide between a or c instruction
+
+
+    Or(a=commandBit, b=instruction[5], out=commandBitForARegister); // A adreess selector
+    ARegister(in=aRegisterInput, load=commandBitForARegister,out=aAddress , out[0..14]=addressM); // output will be registor A and out[0..14] will be adress M
+    
+    And(a=instruction[15], b=instruction[12], out=addressAorM); // A or M address selector
+    Mux16(a=aAddress, b=inM, sel=addressAorM, out=aluInputB); // A or M address
+
+    And(a=instruction[15], b=instruction[4], out=commandBitForDRegister); //D address selector
+    DRegister(in=ThisOutM, load=commandBitForDRegister, out=aluInputA);//out put will be registor D
+    
+    
+    ALU(x=aluInputA, y=aluInputB, zx=instruction[11], nx=instruction[10], zy=instruction[9], ny=instruction[8],
+     f=instruction[7], no=instruction[6],out=ThisOutM, out=outM, zr=zr, ng=ng); // Alu for computaion
+    
+    And(a=instruction[15], b=instruction[3], out=writeM);// M address
+
+    Not(in=ng, out=plus);
+    Not(in=zr, out=notzr);
+
+    And(a=instruction[15], b=instruction[0], out=jgt);
+    And(a=instruction[15], b=instruction[1], out=jeq);
+    And(a=instruction[15], b=instruction[2], out=jlt);
+    And(a=plus, b=notzr, out=plusnotzr);
+    And(a=jgt, b=plusnotzr, out=id1);
+    And(a=jeq, b=zr, out=id2);
+    And(a=jlt, b=ng, out=id3);
+    Or(a=id1, b=id2, out=id1or2);
+    Or(a=id3, b=id1or2, out=id);
+    
+    PC(in=aAddress, load=id, inc=true, reset=reset, out[0..14]=pc);
+
 }
