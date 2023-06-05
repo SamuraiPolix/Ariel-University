@@ -14,33 +14,6 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here:
-(LOOPKBD)
-@KBD
-D=M
-@WHITE
-D;JEQ
-@BLACK
-0;JMP
-
-(WHITE)
-@SCREEN
-D=A
-@address
-M=D
-(LOOPWHITE)
-@address
-A=M
-M=0
-@address
-M=M+1
-D=M
-@KBD
-D=A-D
-@LOOPWHITE
-D;JGT
-@LOOPKBD
-0;JMP
-
 // _ L
 (BLACK)
 @SCREEN
