@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="276fe24b-13d2-4d3c-b0c6-cd7cf0057479" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ConcretePiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcretePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Computer Architecture - Elements of Computing Systems/nand2tetris/projects/01/Or8Way.hdl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Computer Architecture - Elements of Computing Systems/nand2tetris/projects/01/Or8Way.hdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Ex1\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/GameLogicTest.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2afavHgvgVTJwrBrtJy7D1Oj9Hv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.GameLogicTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samla/Downloads/Assignment_1_OOP/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/ArielUniversity/OOP - Object Oriented Programming/Assignment_1_OOP/Ex1/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ArielUniversity\OOP - Object Oriented Programming\Assignment_1_OOP\Ex1\src\test\resources\inputs" />
+      <recent name="C:\ArielUniversity\OOP - Object Oriented Programming\Assignment_1_OOP\Ex1\src\test\resources\outputs" />
+      <recent name="C:\ArielUniversity\OOP - Object Oriented Programming\Assignment_1_OOP\Ex1\src" />
+      <recent name="C:\ArielUniversity\OOP - Object Oriented Programming\Assignment_1_OOP\Ex1\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameLogicTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ex1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameLogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameLogicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GameLogicTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-f644763e9732-1e16d6ec" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="276fe24b-13d2-4d3c-b0c6-cd7cf0057479" name="Changes" comment="" />
+      <created>1704712318142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704712318142</updated>
+      <workItem from="1704712320268" duration="783000" />
+      <workItem from="1704718119112" duration="1006000" />
+      <workItem from="1704719615366" duration="490000" />
+      <workItem from="1704720122540" duration="849000" />
+      <workItem from="1704800215643" duration="15669000" />
+      <workItem from="1704870220716" duration="17054000" />
+      <workItem from="1704910233092" duration="426000" />
+      <workItem from="1705331857588" duration="7144000" />
+      <workItem from="1705401524044" duration="20005000" />
+      <workItem from="1705478078436" duration="7025000" />
+      <workItem from="1705915162961" duration="628000" />
+      <workItem from="1705941931043" duration="4144000" />
+      <workItem from="1706009697014" duration="2157000" />
+      <workItem from="1706011979575" duration="6132000" />
+      <workItem from="1706018444258" duration="3108000" />
+      <workItem from="1706021572689" duration="990000" />
+      <workItem from="1706083617837" duration="1313000" />
+      <workItem from="1706117591771" duration="1143000" />
+      <workItem from="1706437720004" duration="14103000" />
+      <workItem from="1706457846543" duration="67000" />
+      <workItem from="1706459429686" duration="57000" />
+      <workItem from="1706519587093" duration="1612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GameLogicTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.positions[5]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
