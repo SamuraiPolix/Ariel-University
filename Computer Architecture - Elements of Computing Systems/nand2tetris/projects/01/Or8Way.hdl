@@ -14,7 +14,7 @@ CHIP Or8Way {
 
     PARTS:
     // Put your code here:
-	// We could do it in a few ways. If we use OR we have 2 choice which are the same in cost:
+	// We could do it in a few ways. If we use OR we have 2 choices that are the same in cost:
 	// 1. we can do OR on [0], [1] and than get the output to the next or with [2] and so on
 	// 2. we can do OR for every 2 inputs, we will get 4 outputs, use 2 OR's for them, and another OR for the result of the last 2 OR's
 	// Both options result in 7 OR's used - we use the 2nd option
